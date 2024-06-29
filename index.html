@@ -3,33 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Radiant Nectar</title>
+    <title>Radiant Nectar - Luxury Skincare</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="hero">
-        <img src="assets/logo.png" alt="Radiant Nectar Logo">
-        <h1>Welcome to Radiant Nectar</h1>
-        <p>Nourish your skin with nature's finest ingredients</p>
-    </div>
-    <div class="content">
-        <h2>Featured Products</h2>
-        <ul>
-            <li><strong>Radiant Glow Serum</strong> - Achieve a radiant complexion with our powerful blend of natural ingredients.</li>
-            <li><strong>Hydrating Moisturizer</strong> - Keep your skin hydrated and healthy with our luxurious moisturizer.</li>
-            <li><strong>Revitalizing Night Cream</strong> - Wake up to rejuvenated skin with our overnight treatment.</li>
-        </ul>
-        <h2>About Us</h2>
-        <p>Radiant Nectar was born out of a passion for natural beauty and skincare. We believe in harnessing the power of nature to provide effective and safe beauty solutions. Our mission is to help you achieve healthy, radiant skin through our premium products.</p>
-        <p>We carefully select high-quality, natural ingredients known for their skincare benefits. From nourishing oils to revitalizing botanicals, each ingredient is chosen for its ability to enhance your skin's natural beauty.</p>
-        <h2>Testimonials</h2>
-        <p>"Radiant Nectar has transformed my skin! I love the natural ingredients and the results are amazing." - Jane D.</p>
-        <p>"The best skincare line I've ever used. My skin feels so nourished and radiant." - Sarah K.</p>
-        <h2>Contact Us</h2>
-        <p>Follow us on Instagram: <a href="https://instagram.com/RadiantNectar">@RadiantNectar</a></p>
-        <p>Like us on Facebook: <a href="https://facebook.com/RadiantNectar">Radiant Nectar</a></p>
-        <p>Address: 123 Beauty Lane, Skincare City, USA</p>
-        <p>Phone: (123) 456-7890</p>
-    </div>
+    <header>
+        <nav>
+            <img src="assets/logo.png" alt="Radiant Nectar Logo" class="logo">
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Radiant Nectar</h1>
+            <p>Nourish your skin with nature's finest ingredients</p>
+            <a href="#products" class="cta-button">Discover Our Collection</a>
+        </section>
+
+        <section id="products" class="products">
+            <h2>Luxury Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="assets/serum.jpg" alt="Radiant Glow Serum">
+                    <h3>Radiant Glow Serum</h3>
+                    <p>Achieve a radiant complexion with our powerful blend of natural ingredients.</p>
+                </div>
+                <div class="product-card">
+                    <img src="assets/moisturizer.jpg" alt="Hydrating Moisturizer">
+                    <h3>Hydrating Moisturizer</h3>
+                    <p>Keep your skin hydrated and healthy with our luxurious moisturizer.</p>
+                </div>
+                <div class="product-card">
+                    <img src="assets/night-cream.jpg" alt="Revitalizing Night Cream">
+                    <h3>Revitalizing Night Cream</h3>
+                    <p>Wake up to rejuvenated skin with our overnight treatment.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>Our Story</h2>
+            <p>Radiant Nectar was born out of a passion for natural beauty and skincare. We believe in harnessing the power of nature to provide effective and safe beauty solutions. Our mission is to help you achieve healthy, radiant skin through our premium products.</p>
+            <p>We carefully select high-quality, natural ingredients known for their skincare benefits. From nourishing oils to revitalizing botanicals, each ingredient is chosen for its ability to enhance your skin's natural beauty.</p>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <h2>Client Experiences</h2>
+            <div class="testimonial-grid">
+                <blockquote>
+                    <p>"Radiant Nectar has transformed my skin! I love the natural ingredients and the results are amazing."</p>
+                    <cite>- Jane D.</cite>
+                </blockquote>
+                <blockquote>
+                    <p>"The best skincare line I've ever used. My skin feels so nourished and radiant."</p>
+                    <cite>- Sarah K.</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Connect With Us</h2>
+            <div class="contact-info">
+                <p>Follow us on Instagram: <a href="https://instagram.com/RadiantNectar">@RadiantNectar</a></p>
+                <p>Like us on Facebook: <a href="https://facebook.com/RadiantNectar">Radiant Nectar</a></p>
+                <p>Address: 123 Beauty Lane, Skincare City, USA</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Radiant Nectar. All rights reserved.</p>
+    </footer>
 </body>
 </html>
