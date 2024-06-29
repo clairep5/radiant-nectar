@@ -83,6 +83,7 @@ nav ul li a:hover {
 
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
+    text-align: center; /* Center all headings */
 }
 
 h1 {
@@ -166,6 +167,16 @@ cite {
     text-align: right;
     margin-top: 10px;
     font-weight: 700;
+}
+
+/* Center the entire contact section */
+.contact {
+    text-align: center;
+}
+
+.contact-info {
+    display: inline-block;
+    text-align: left;
 }
 
 footer {
